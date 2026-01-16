@@ -9,7 +9,7 @@ import s1 from "../assets/women/Accessories/Scraf/s1.jpg";
 
 // ================== MEN ==================
 import sh from "../assets/men/clothing/topwear/shirts/sh.jpg";
-import ts from "../assets/men/clothing/topwear/T-shirts/ts.jpg";
+import ts from "../assets/men/clothing/topwear/t-shirts/ts.jpg";
 import a1 from "../assets/men/clothing/accessories/a1.jpg";
 import a3 from "../assets/men/clothing/accessories/a3.jpg";
 
