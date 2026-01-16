@@ -1,0 +1,224 @@
+
+.top-strip {
+  background: #4a3f35;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 7px 0;
+  letter-spacing: 1px;
+  position: sticky;
+}
+
+.top-strip span {
+  text-decoration: underline;
+  cursor: pointer;
+} 
+
+.top-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 40px;
+  font-size: 9px;
+  
+}
+.left-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.left-links span a {
+  text-decoration: none;
+  color: #6b4f3f;              /* warm brown */
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.left-links span a:hover {
+  color: #3e2a1f;
+  text-decoration: underline;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 6008px) {
+  .top-links {
+    padding: 8px 15px;
+  }
+
+  .left-links {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.icons{
+  cursor: pointer;
+}
+.right-icons span {
+  margin-left: 12px;
+  cursor: pointer;
+}
+.logo {
+  text-align: center;
+  line-height: 1;
+}
+
+.logo .since {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.logo h1 {
+  font-size: 40px;
+  letter-spacing: 6px;
+  margin: 0;
+  font-weight: 600;
+  font-family: "Georgia", serif;
+}
+
+.logo .tagline {
+  font-family: "Cursive", serif;
+  font-style: italic;
+  margin-top: 6px;
+}
+.logo h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.logo .tagline {
+  font-family: 'Great Vibes', cursive;
+}
+
+
+.since {
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.icons span {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.icons select {
+  padding: 4px 8px;
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+.nav-link:hover {
+  color: #6b4f3f;      /* brown */
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+/* Mega Menu Styling */
+.mega-menu {
+  display: none; /* hidden by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+/* Show mega menu on hover of nav-item */
+.nav-item:hover .mega-menu {
+  display: flex;
+  gap: 30px;
+}
+
+/* Mega menu links */
+.mega-link {
+  display: block;
+  margin: 8px 0;
+  color:#333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Hover / Active effect */
+.mega-menu .nav-link:hover {
+  color: #6b4f3f;
+  text-decoration: underline;
+}
+
+.search-box {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.search-box input {
+  padding: 8px 15px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    height: 100vh;
+    padding-top: 80px;
+    transition: 0.3s ease;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+    right: 0;
+  }
+}
+.menu-btn {
+  display: none;          /* desktop par hide */
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px 15px;
+  position: absolute;
+  right: 15px;
+  top: 90px;              /* logo ke niche adjust kar sakti ho */
+  z-index: 1001;
+  color: #6b4f3f;         /* your theme brown */
+}
+.navbar-wrapper {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 999;
+}
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-link:hover {
+  cursor: pointer;
+}

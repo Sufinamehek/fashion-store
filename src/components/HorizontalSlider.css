@@ -1,0 +1,103 @@
+.horizontal-slider-section {
+  margin: 40px 20px;
+}
+
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.slider-header h2 {
+  font-size: 24px;
+  color: #4a3f35;
+}
+
+.slider-header-btn {
+  padding: 8px 16px;
+  background-color: #4a3f35;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slider-header-btn:hover {
+  background-color: #3e2f25;
+}
+
+/* Horizontal Slider */
+.horizontal-slider {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;   /* scroll only inside slider */
+  overflow-y: hidden;
+}
+
+.horizontal-slider::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Slider Card */
+.slider-card {
+  min-width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.slider-card:hover {
+  transform: translateY(-5px);
+}
+
+.slider-card-image {
+  width: 80%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Badge for gift */
+.slider-card-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #e53935; /* red */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Info section */
+.slider-card-info {
+  padding: 10px;
+}
+
+.slider-card-info h4 {
+  font-size: 16px;
+  color: #3e2f25;
+  margin-bottom: 5px;
+}
+
+.slider-card-info p {
+  font-size: 14px;
+  color: #4a3f35;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slider-card {
+    min-width: 160px;
+  }
+}

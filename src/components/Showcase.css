@@ -1,0 +1,88 @@
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -320px;   /* Hidden */
+  width: 300px;
+  height: 100%;
+  background: #ffffff;   /* ✅ White background */
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  z-index: 1000;
+  box-shadow: -3px 0 15px rgba(0,0,0,0.2);
+}
+
+.sidebar.open {
+  right: 0;   /* Visible */
+}
+.sidebar button {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #222;   /* normal text */
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sidebar button:hover {
+  background: #6b4f3f;   /* ✅ Brown hover */
+  color: white;          /* ✅ White text on hover */
+  border-color: #6b4f3f;
+}
+
+.sidebar button.active {
+  background: #6b4f3f;
+  color: white;
+  border-color: #6b4f3f;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebar-header button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 900;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-input {
+  width: 240px;
+  height: 34px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.filter-open-btn {
+  height: 34px;
+  padding: 0 14px;
+  background: #6b4f3f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-open-btn:hover {
+  opacity: 0.9;
+}

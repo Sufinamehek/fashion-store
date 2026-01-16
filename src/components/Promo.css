@@ -1,0 +1,11 @@
+.promo {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.promo button {
+  margin-top: 15px;
+  padding: 10px 25px;
+}
