@@ -52,10 +52,17 @@ const Navbar = ({ setSelectedCategory, setSelectedSub, setSearch }) => {
             <p className="tagline">Fashion that fits your lifestyle</p>
           </div>
         </Link>
-      </div>
-      <div className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
+         <div className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
            ☰
       </div>
+        <div 
+    className={`nav-overlay ${menuOpen ? "active" : ""}`} 
+    onClick={() => setMenuOpen(false)}
+  />
+
+
+      </div>
+     
 
 
       {/* NAV LINKS */}
