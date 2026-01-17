@@ -2,7 +2,7 @@
   padding: 40px 20px;
 }
 
-.men-title {
+.men-title  {
   text-align: center;
   font-size: 28px;
   margin-bottom: 25px;
@@ -51,4 +51,78 @@
   text-align: center;
   font-size: 16px;
   color: #777;
+}
+.gift-page {
+padding: 40px 20px;
+}
+
+.gift-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.sale-page {
+ padding: 40px 20px;
+}
+
+.sale-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.women-page {
+  padding: 40px 20px;
+}
+
+.women-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.kids-page {
+padding: 40px 20px;
+}
+
+.kids-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.filter-bar button {
+  padding: 8px 18px;
+  border: 1px solid #6b4f3f;
+  background: transparent;
+  color: #6b4f3f;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.filter-bar button:hover {
+    background: #6b4f3f;
+  color: #fff;
+}
+
+.filter-bar button.active {
+  background: #6b4f3f;
+  color: #fff;
 }

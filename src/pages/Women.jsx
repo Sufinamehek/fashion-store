@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import products from "../data/products";
 import SearchFilter from "../components/SearchFilter";
-import "./Women.css";
-
+import "./Men.css";
 const FILTERS = [
   { label: "All", value: "all" },
   { label: "Tops", value: "tops" },

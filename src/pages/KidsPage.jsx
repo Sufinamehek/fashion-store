@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import productsKids from "../data/productskids";
 import SearchFilter from "../components/SearchFilter";
-import "./KidsPage.css";
+import "./Men.css";
 
 // MAIN CATEGORIES
 const MAIN_CATEGORIES = [

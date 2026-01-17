@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import giftProducts from "../data/productgift";
 import SearchFilter from "../components/SearchFilter";
-import "./GiftPage.css";
+import "./Men.css";
 
 const FILTERS = [
   { label: "All", value: "all" },

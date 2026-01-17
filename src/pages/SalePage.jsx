@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import saleProducts from "../data/saleProducts";
 import ProductCard from "../components/ProductCard";
-import "./SalePage.css";
+import "./Men.css";
 
 const SalePage = () => {
   const location = useLocation();
