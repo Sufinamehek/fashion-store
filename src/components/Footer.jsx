@@ -48,7 +48,7 @@ const Footer = () => {
 
       {/* BOTTOM BAR */}
       <div className="footer-bottom">
-        <p>© 2024 Urban Fashion. All Rights Reserved.</p>
+        <p>© 2026 Urban Fashion. All Rights Reserved.</p>
       </div>
     </footer>
   );

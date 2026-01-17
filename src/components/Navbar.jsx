@@ -47,7 +47,7 @@ const Navbar = ({ setSelectedCategory, setSelectedSub, setSearch }) => {
       <div className="logo-bar">
         <Link to="/" className="logo-link">
           <div className="logo">
-            <p className="since">SINCE 2024</p>
+            <p className="since">SINCE 2026</p>
             <h1>Urban</h1>
             <p className="tagline">Fashion that fits your lifestyle</p>
           </div>
